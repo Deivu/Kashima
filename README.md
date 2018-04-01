@@ -4,6 +4,7 @@
   <img src="https://discordbots.org/api/widget/424137718961012737.svg" alt="Discord Music Bot" />
 </a>
 </center>
+
 `Kashima's Commands
 
 Kashima Doesn't support changable prefix for now, but she got 2 prefixes

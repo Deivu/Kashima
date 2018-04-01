@@ -5,7 +5,8 @@
 </a>
 </center>
 
-`Kashima's Commands
+```
+Kashima's Commands
 
 Kashima Doesn't support changable prefix for now, but she got 2 prefixes
 You can call for her via @Kashima or using + then the command follows
@@ -54,4 +55,4 @@ queue --- shows the queue and the now playing on your server
 
 ##--- Owner / Co Owner Commands ---##
 listguild - shows the guilds where kashima has joined **no other stuff is fetched other than guild names**
-`
+```

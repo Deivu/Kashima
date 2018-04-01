@@ -1,0 +1,2 @@
+# Kashima
+Documentation for Kashima

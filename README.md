@@ -16,6 +16,7 @@ Example: @Kashima#4514status or +status.
 
 ##--- Misc Commands ---##
 
+help --- Shows help about kashima as well as the commands for Kashima
 ping --- Shows Kashima's Latency to the Discord Server, Message and API wise.
 about --- Shows what Kashima is made of. Her version, framework and owners
 status --- Shows some stats about Kashima, her uptime, server count and user count.
@@ -27,12 +28,27 @@ invite --- Shows the invite for Kashima, so you can use her on your servers.
 ask --- Pretty much like 8ball stuff. Ask something and Kashima can answer yes, maybe or no depending on her mood.
 avatar --- Shows you your avatar, not an other person's avatar
 neko --- Shows you a picture of a normal neko or a neko on swimsuit but I guarantee, its still SFW
+hug @mention --- Hugs the mentioned user (has it's default response if you did not mention anyone)
+kiss @mention --- Kiss the mentioned user (has it's default response if you did not mention anyone)
+poke @mention --- Pokes the mentioned user (has it's default response if you did not mention anyone)
+pat @mention --- Pats the mentioned user (has it's default response if you did not mention anyone)
+tickle @mention --- Tickles the mentioned user (has it's default response if you did not mention anyone)
+slap @mention --- Slap the mentioned user (has it's default response if you did not mention anyone)
+cuddle @mention --- Cuddles the mentioned user (has it's default response if you did not mention anyone)
+
+##--- Game Commands ---##
+
+osustd *user* --- Shows you your stats on osu standard
+osustdtop *user* --- Shows you your top play on osu standard
+osumania *user* --- Shows you your stats on osu mania
+osumaniatop *user* --- Shows you your top play on osu mania
 
 ##--- NSFW Commands ---##
 
 lewdneko --- This is where Kashima will show NSFW Pictures of a CatGirl/Neko.
 lewdnekogif --- This is where Kashima will show NSFW Pictures of a CatGirl/Neko, but in a MOVING format.
 oppai --- This is where Kashima will show you some jiggly oppai's. *Im sure Issei would love this*
+hentai --- Random Hentai GIF/Pictures.
 
 ##--- Moderator Commands ---##
 

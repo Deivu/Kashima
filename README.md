@@ -8,15 +8,17 @@
 ```
 Kashima's Commands
 
-Kashima Doesn't support changable prefix for now, but she got 2 prefixes
-You can call for her via @Kashima or using + then the command follows
-Example: @Kashima#4514status or +status.
+Kashima Supports the customizable prefix. 
+Her Default Prefix is +
+If you don't know her prefix on a server (you tried to use + prefix but didn't work),
+She can tell you her prefix by just mentioning her.
 
 ##Kashima's Commands##
 
 ##--- Misc Commands ---##
 
 help --- Shows help about kashima as well as the commands for Kashima
+prefixset --- Sets a custom prefix for Kashima on your server.<Needs Manager Server or Administrator to work>
 ping --- Shows Kashima's Latency to the Discord Server, Message and API wise.
 about --- Shows what Kashima is made of. Her version, framework and owners
 status --- Shows some stats about Kashima, her uptime, server count and user count.
@@ -52,9 +54,11 @@ hentai --- Random Hentai GIF/Pictures.
 
 ##--- Moderator Commands ---##
 
-clearmsg --- Deletes the last 100 messages on the last 14 days, if it did not delete anything, then those message are too old enough to be deleted, goumenasai :<.
-kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick >
+<This wont work on non NSFW Channels>
+clearmsg --- Deletes the last 100 messages on the last 14 days, if it did not delete anything, then those message are too old enough to be deleted, goumenasai :<.<Needs Manage Messages or Administrator to work>
+kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick > <Needs Kick Permissions or Administrator to work>
 ban @mention reason --- Bans someoone out of your server. < @mention is the name of user you want to ban, reason is the reason for ban >
+<Needs Ban Permissions or Administrator to work>
 
 ##--- Music Commands ---##
 

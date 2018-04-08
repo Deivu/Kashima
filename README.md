@@ -28,7 +28,7 @@ invite --- Shows the invite for Kashima, so you can use her on your servers.
 ##--- Fun / Other Commands ---##
 
 ask --- Pretty much like 8ball stuff. Ask something and Kashima can answer yes, maybe or no depending on her mood.
-avatar --- Shows you your avatar, not an other person's avatar
+avatar --- Shows you your avatar, and an another person's avatar if you mentioned someone.
 neko --- Shows you a picture of a normal neko or a neko on swimsuit but I guarantee, its still SFW
 hug @mention --- Hugs the mentioned user (has it's default response if you did not mention anyone)
 kiss @mention --- Kiss the mentioned user (has it's default response if you did not mention anyone)
@@ -47,6 +47,7 @@ osumaniatop *user* --- Shows you your top play on osu mania
 
 ##--- NSFW Commands ---##
 
+<This wont work on non NSFW Channels>
 lewdneko --- This is where Kashima will show NSFW Pictures of a CatGirl/Neko.
 lewdnekogif --- This is where Kashima will show NSFW Pictures of a CatGirl/Neko, but in a MOVING format.
 oppai --- This is where Kashima will show you some jiggly oppai's. *Im sure Issei would love this*
@@ -54,8 +55,7 @@ hentai --- Random Hentai GIF/Pictures.
 
 ##--- Moderator Commands ---##
 
-<This wont work on non NSFW Channels>
-clearmsg --- Deletes the last 100 messages on the last 14 days, if it did not delete anything, then those message are too old enough to be deleted, goumenasai :<.<Needs Manage Messages or Administrator to work>
+clearmsg --- Deletes the last 200 messages on the channel you invoked this command.<Needs Manage Messages or Administrator to work>
 kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick > <Needs Kick Permissions or Administrator to work>
 ban @mention reason --- Bans someoone out of your server. < @mention is the name of user you want to ban, reason is the reason for ban >
 <Needs Ban Permissions or Administrator to work>

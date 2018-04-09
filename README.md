@@ -71,7 +71,7 @@ For playlist make sure the link format is something like https://www.youtube.com
 For Search, just use +play searchterm here or @Kashima#4514play searchterm here.
 skip --- skips the current song and plays the next in queue
 stop --- stops the music and removes all the songs from queue
-queue --- shows the queue and the now playing on your server
+queue --- shows the first 5 Queued music and the now playing on your server.
 
 ##--- Owner / Co Owner Commands ---##
 listguild - shows the guilds where kashima has joined **no other stuff is fetched other than guild names**

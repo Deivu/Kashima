@@ -74,7 +74,7 @@ stop --- stops the music and removes all the songs from queue
 queue --- shows the first 5 Queued music and the now playing on your server.
 
 ##--- Owner / Co Owner Commands ---##
-listguild - shows the guilds where kashima has joined **no other stuff is fetched other than guild names**
+reboot - Kashima will commecnce reboot.
 fguildsupdate - forces kashima to update stuffs to dbl api, when things go inaccurately this can be used.
 eval - some dangerous stuff that I can't let you touch, but for a good reason, because this code runs the code you entered with [prefix]eval.
 ```

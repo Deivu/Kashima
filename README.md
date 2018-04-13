@@ -74,7 +74,8 @@ stop --- stops the music and removes all the songs from queue
 queue --- shows the first 5 Queued music and the now playing on your server.
 
 ##--- Owner / Co Owner Commands ---##
-reboot - Kashima will commecnce reboot.
+reboot - Kashima will commence reboot.
 fguildsupdate - forces kashima to update stuffs to dbl api, when things go inaccurately this can be used.
 eval - some dangerous stuff that I can't let you touch, but for a good reason, because this code runs the code you entered with [prefix]eval.
+say - lets Kashima say something you encoded lols
 ```

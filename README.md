@@ -56,7 +56,8 @@ hentai --- Random Hentai GIF/Pictures.
 ##--- Moderator Commands ---##
 
 clearmsg --- Deletes the last 100 messages on the channel you invoked this command.<Needs Manage Messages or Administrator to work>
-kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick > <Needs Kick Permissions or Administrator to work>
+kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick > 
+<Needs Kick Permissions or Administrator to work>
 ban @mention reason --- Bans someoone out of your server. < @mention is the name of user you want to ban, reason is the reason for ban >
 <Needs Ban Permissions or Administrator to work>
 

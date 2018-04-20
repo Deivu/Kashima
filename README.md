@@ -22,15 +22,15 @@ Module Specific Commands needs Manage Server Permissions to work, means if you c
 help --- Shows help about kashima as well as the commands for Kashima
 prefixset --- Kashima will change the prefix according on what you want~
 afkset --- Kashima will set whether the AFK Module will be on/off in a server~
-afk  --- Kashima will change the prefix according on what you want~
-welcomeset --- Kashima will set whether if Teitoku want to turn the Welcome Module on/off in the server~
-welcomech --- Kashima will set the Welcome Channel depending on what Teitoku wants. Has the default of #welcome channel~
-welcomemsg ---Kashima will let Teitoku to Specify what would be the Welcome Message in the server ~ 
+afk  --- Kashima will set you afk, Given the AFK module is enabled on the server~
+welcomeset --- Kashima will set whether to turn the Welcome Module on/off in a server~
+welcomech --- Kashima will set the Welcome Channel depending on what you want. Has the default of #welcome channel~
+welcomemsg ---Kashima will let you specify what would be the Welcome Message in the server ~ 
 {user} will be the mention of the user joined ~ 
 {guild} will be your Discord's Server name ~ 
 Example : Hi {user} welcome to our {guild}, This is Kashima, gives you a warm welcome ~
-modlogset --- Kashima will set whether if Teitoku want to turn the Mod-Log Module on/off in the server~
-modlogch --- Kashima will set the mod-log channel depending on what Teitoku wants. Has the default of #kashima-logchannel~
+modlogset --- Kashima will set whether to turn the Mod-Log Module on/off in the server~
+modlogch --- Kashima will set the mod-log channel depending on what you want. Has the default of #kashima-log channel~
 ping --- Shows Kashima's Latency to the Discord Server, Message and API wise.
 about --- Shows what Kashima is made of. Her version, framework and owners
 status --- Shows some stats about Kashima, her uptime, server count and user count.

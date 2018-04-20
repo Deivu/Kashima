@@ -17,9 +17,20 @@ She can tell you her prefix by just mentioning her.
 
 ##--- Misc Commands ---##
 
+Module Specific Commands needs Manage Server Permissions to work, means if you can invite a bot to a server, then you can change the Module Settings on that server.
+
 help --- Shows help about kashima as well as the commands for Kashima
-prefixset --- Sets a custom prefix for Kashima on your server.
-<Needs Manager Server or Administrator to work>
+prefixset --- Kashima will change the prefix according on what you want~
+afkset --- Kashima will set whether the AFK Module will be on/off in a server~
+afk  --- Kashima will change the prefix according on what you want~
+welcomeset --- Kashima will set whether if Teitoku want to turn the Welcome Module on/off in the server~
+welcomech --- Kashima will set the Welcome Channel depending on what Teitoku wants. Has the default of #welcome channel~
+welcomemsg ---Kashima will let Teitoku to Specify what would be the Welcome Message in the server ~ 
+{user} will be the mention of the user joined ~ 
+{guild} will be your Discord's Server name ~ 
+Example : Hi {user} welcome to our {guild}, This is Kashima, gives you a warm welcome ~
+modlogset --- Kashima will set whether if Teitoku want to turn the Mod-Log Module on/off in the server~
+modlogch --- Kashima will set the mod-log channel depending on what Teitoku wants. Has the default of #kashima-logchannel~
 ping --- Shows Kashima's Latency to the Discord Server, Message and API wise.
 about --- Shows what Kashima is made of. Her version, framework and owners
 status --- Shows some stats about Kashima, her uptime, server count and user count.
@@ -55,22 +66,22 @@ hentai --- Random Hentai GIF/Pictures.
 
 ##--- Moderator Commands ---##
 
-clearmsg --- Deletes the last 100 messages on the channel you invoked this command.
-<Needs Manage Messages or Administrator to work>
+Needs: Manage Messages, Ban, and Kick Permissions
+
+clearmsg <number> --- Kashima will delete the last 2-100 messages in the channel where you used this
+purgemsg <number> --- Kashima will bulk-delete the last 2-100 messages in the channel where you used this
 kick @mention reason --- Kicks someone out of your server. < @mention is the name of user you want to kick, reason is the reason for kick > 
 <Needs Kick Permissions or Administrator to work>
 ban @mention reason --- Bans someoone out of your server. < @mention is the name of user you want to ban, reason is the reason for ban >
-<Needs Ban Permissions or Administrator to work>
+
 
 ##--- Music Commands ---##
 
 play --- this plays a particular youtube link to your discord voice channel. Playlists and Search are supported. 
 < sample usage : for the prefix + usage
-+play https://www.youtube.com/watch?v=ULHQPm8hmVk , 
-for the @mention usage
-@Kashima#4514play https://www.youtube.com/watch?v=ULHQPm8hmVk > 
++play https://www.youtube.com/watch?v=ULHQPm8hmVk , > 
 For playlist make sure the link format is something like https://www.youtube.com/playlist?list=``playlist id is here``.
-For Search, just use +play searchterm here or @Kashima#4514play searchterm here.
+For Search, just use +play searchterm here
 skip --- skips the current song and plays the next in queue
 stop --- stops the music and removes all the songs from queue
 queue --- shows the first 5 Queued music and the now playing on your server.

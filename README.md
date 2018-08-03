@@ -21,7 +21,7 @@ Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu
 * AFK Notifications.
 * Not Safe For Work (NSFW) commands.
 
-## Reporting Bugs and Suggesting Issues
+## Reporting Bugs and Suggesting Ideas
 * Go to Issues tab and click the "New Issue".
 * Select the template that goes in what you want.
 * Fill it up as much as possible then submit it.

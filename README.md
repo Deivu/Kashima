@@ -1,12 +1,12 @@
 
-## Note:
+# Kashima
+![Kashima](https://vignette.wikia.nocookie.net/kancolle/images/a/a2/Kashima_Shopping_Full.png/revision/latest?cb=20170929103638)
+ 
+
+### Note
 Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu/Kashima/wiki) section. 
 
 *The link is an absolute link; cloning or forking will make the link unusable*
- 
-## Kashima's Banner (1.6.0 Banner TBA)
-![Kashima](https://i.imgur.com/bJmVVZ5.png)
-
 ### Features:
 * 24/7 Guaranteed uptime (Except maintenance).
 * Has a personality. 
@@ -21,7 +21,7 @@ Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu
 * AFK Notifications.
 * Not Safe For Work (NSFW) commands.
 
-## Reporting Bugs and Suggesting Ideas
+### Reporting Bugs and Suggesting Ideas
 * Go to Issues tab and click the "New Issue".
 * Select the template that goes in what you want.
 * Fill it up as much as possible then submit it.

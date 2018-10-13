@@ -10,7 +10,7 @@ Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu
 
 *The link is an absolute link; cloning or forking will make the link unusable*
 
-### Features:
+### Features
 <p>[✓] 24/7 Online.
 <p>[✓] Feature-rich.
 <p>[✓] Easy to Use.

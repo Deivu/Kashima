@@ -5,6 +5,7 @@
 </p>
 The ShipGirl Project. It all started with Kashima.
 ``(c) Kancolle for Kashima.``
+
 ### Note
 Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu/Kashima/wiki) section. 
 

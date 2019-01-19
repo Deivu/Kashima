@@ -4,7 +4,7 @@
   <img src="https://vignette.wikia.nocookie.net/kancolle/images/a/a2/Kashima_Shopping_Full.png/revision/latest?cb=20170929103638">
 </p>
 The ShipGirl Project. It all started with Kashima.
-``(c) Kancolle for Kashima.``
+```(c) Kancolle for Kashima.```
 
 ### Note
 Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu/Kashima/wiki) section. 

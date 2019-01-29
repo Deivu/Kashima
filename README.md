@@ -13,15 +13,14 @@ Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu
 
 ### Features
 <p>[✓] 24/7 Online.
-<p>[✓] Feature-rich.
 <p>[✓] Easy to Use.
-<p>[✓] Osu Stats Searcher.
-<p>[✓] Azur Lane Integration.
-<p>[✓] Lots of Weaboo Love in it.
-<p>[✓] LISTEN.moe Radio Support.
-<p>[✓] Per-Server Custom Settings.
-<p>[✓] Feature Rich, High Quality Music Player.
-<p>[✓] Created by a Dedicated Weaboo Developer.
+<p>[✓] Starboard Supported.
+<p>[✓] Osu stats, AzurLane and Kancolle commands.
+<p>[✓] Moderation and Logging system.
+<p>[✓] High Quality Music Player.
+<p>[✓] LISTEN.moe Player Support.
+<p>[✓] Configurable Settings.
+<p>[✓] Created by a Weaboo Developer. 
 
 ### Reporting Bugs and Suggesting Ideas
 * Go to Issues tab and click the "New Issue".

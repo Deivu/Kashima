@@ -12,15 +12,25 @@ Kashima's Wiki/Documentation can now be found at [wiki](https://github.com/Deivu
 *The link is an absolute link; cloning or forking will make the link unusable*
 
 ### Features
-<p>[✓] 24/7 Online.
-<p>[✓] Easy to Use.
-<p>[✓] Starboard Supported.
-<p>[✓] Osu stats, AzurLane and Kancolle commands.
-<p>[✓] Moderation and Logging system.
-<p>[✓] High Quality Music Player.
-<p>[✓] LISTEN.moe Player Support.
-<p>[✓] Configurable Settings.
-<p>[✓] Created by a Weaboo Developer. 
+[✓] 99% Uptime.
+
+[✓] Configurable Moderation and Logging System.
+
+[✓] Unrestricted Music Player Queue.
+
+[✓] High Quality Music Player. Supports Soundcloud and Youtube.
+
+[✓] Multiple Internet radio station support.
+
+[✓] Starboard System.
+
+[✓] Configurable Settings.
+
+[✓] Osu stats, AzurLane and Kancolle commands.
+
+[✓] Lots of Interaction and Fun Commands.
+
+[✓] Maintained by a Big Weeb Developer.
 
 ### Reporting Bugs and Suggesting Ideas
 * Go to Issues tab and click the "New Issue".

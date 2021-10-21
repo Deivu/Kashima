@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Why is this bot called Kashima? Who is Kashima? Kancolle? I've never heard of it...",
+    "answer": "Try [this](https://en.wikipedia.org/wiki/Kantai_Collection) or [this](http://kancolle.wikia.com/wiki/Kashima).\nIf you prefer 3D over 2D check [this out](https://en.wikipedia.org/wiki/Japanese_cruiser_Kashima)."
+  },
+  {
+    "question": "Is Kashima a good bot?",
+    "answer": "Yes it is! But, always remember this: Opinions varies. I'd say Kashima is good, but others might say she's bad. So, its up to you to decide!"
+  },
+  {
+    "question": "What can Kashima do?",
+    "answer": "She can do a lot of things now, and you can see what she can do by using her help command."
+  },
+  {
+    "question": "Why Kashima doesn't respond?",
+    "answer": "Permissions, Check your Channel Overrides and Role Permissions and make sure Kashima have these basic permissions\n### View Channel\n### Send Message\n### Embed Links\n### Attach Files\n### Use External Emojis\nIf she don't have even one of that permissions, she will not respond because she needs those basic permissions to work without problems"
+  },
+  {
+    "question": "I am having problem with vote locked commands.",
+    "answer": "If you have problems on vote system, make sure you checked the following. \n1. Did you vote in the right account? To check, go to Kashima's voting page with Incognito mode or Private Mode, then login the right account there, if you can vote then you may have voted in wrong account.\n2. Let it refresh, usually it takes about less than a minute up to 5 minutes, but it would depend on their servers on how fast they can give the data to us."
+  },
+  {
+    "question": "How can we get in touch with the developers?",
+    "answer": "If you want, you can contact `@Saya#0113` in Discord. I always stay online as much as possible on our server which is the [FleetGirls Collection](https://discordapp.com/invite/FVqbtGu)"
+  },
+  {
+    "question": "What if my question isn't in here?",
+    "answer": "Join my Server which is the [FleetGirls Collection](https://discordapp.com/invite/FVqbtGu) and look for #bot-support .channel."
+  }
+]

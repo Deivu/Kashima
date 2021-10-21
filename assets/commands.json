@@ -1,0 +1,1732 @@
+{
+  "action": [
+    {
+      "name": "/action bite",
+      "description": "Bites a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to bite"
+        }
+      ]
+    },
+    {
+      "name": "/action greet",
+      "description": "Greets a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to greet"
+        }
+      ]
+    },
+    {
+      "name": "/action lick",
+      "description": "Licks a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to lick"
+        }
+      ]
+    },
+    {
+      "name": "/action poke",
+      "description": "Pokes a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to poke"
+        }
+      ]
+    },
+    {
+      "name": "/action pout",
+      "description": "Sends a pout",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to pout on"
+        }
+      ]
+    },
+    {
+      "name": "/action smile",
+      "description": "Sends a smile",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to smile on"
+        }
+      ]
+    },
+    {
+      "name": "/action stare",
+      "description": "Stares at a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to stare on"
+        }
+      ]
+    },
+    {
+      "name": "/action tickle",
+      "description": "Tickles a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to tickle"
+        }
+      ]
+    },
+    {
+      "name": "/cuddle",
+      "description": "Cuddles with a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to cuddle with"
+        }
+      ]
+    },
+    {
+      "name": "/hug",
+      "description": "Hugs a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to hug"
+        }
+      ]
+    },
+    {
+      "name": "/kiss",
+      "description": "Kisses a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to kiss"
+        }
+      ]
+    },
+    {
+      "name": "/pat",
+      "description": "Pats a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to pat"
+        }
+      ]
+    },
+    {
+      "name": "/wag",
+      "description": "Wags for a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to wag on"
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "name": "/set afk",
+      "description": "Sets the AFK mentions module for your guild",
+      "args": [
+        {
+          "name": "enable",
+          "type": 5,
+          "description": "If you want this module to be enabled or not",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/set nsfw",
+      "description": "Sets the configuration for NSFW commands in your guild",
+      "args": [
+        {
+          "name": "enable",
+          "type": 5,
+          "description": "Enables or Disables the NSFW commands",
+          "required": true
+        },
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "Locks this command into a specific nsfw channel, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set invite",
+      "description": "Sets the configuration for invite deleter module in your guild",
+      "args": [
+        {
+          "name": "level",
+          "type": 4,
+          "description": "0 disables the module, 1 for delete invite, 2 for delete and kick, 3 for delete and ban",
+          "required": true
+        },
+        {
+          "name": "role",
+          "type": 8,
+          "description": "When specified, the module will ignore users that has the role, leave it blank to disable"
+        }
+      ]
+    },
+    {
+      "name": "/set logs guild",
+      "description": "Sets where the logs for role & nickname sends",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want to send to, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set logs member",
+      "description": "Sets where the logs for member leave & join sends",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want to send to, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set logs message",
+      "description": "Sets where message edits, deletes and edits sends",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want to send to, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set logs moderation",
+      "description": "Sets where the mod-logs (moderation commands info from this bot) sends",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want to send to, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set music channel",
+      "description": "Sets where the music commands can only be used",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want to bind to, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set music dj",
+      "description": "Sets the DJ role for the music commands",
+      "args": [
+        {
+          "name": "role",
+          "type": 8,
+          "description": "When specified, DJ role will bind to the specified role, leave it blank to disable"
+        }
+      ]
+    },
+    {
+      "name": "/set music autoleave",
+      "description": "Sets whether you want to enable or disable 24/7",
+      "args": [
+        {
+          "name": "enable",
+          "type": 5,
+          "description": "If you want to enable this setting or not",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/set music volume",
+      "description": "Sets the default volume for your player",
+      "args": [
+        {
+          "name": "level",
+          "type": 4,
+          "description": "Your new defaul volume, leave it blank to reset"
+        }
+      ]
+    },
+    {
+      "name": "/set music voting",
+      "description": "Sets the default volume for your player",
+      "args": [
+        {
+          "name": "enable",
+          "type": 5,
+          "description": "If you want to enable music skip votes or not. Only works if DJ is set",
+          "required": true
+        },
+        {
+          "name": "count",
+          "type": 4,
+          "description": "If you want to change the minimum count for vote, leave it blank to reset to 3"
+        }
+      ]
+    },
+    {
+      "name": "/set starboard channel",
+      "description": "Sets where the starboard eligable messages will send",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set starboard emoji",
+      "description": "Sets a emoji for reacting on messages that the users want on starboard",
+      "args": [
+        {
+          "name": "emoji",
+          "type": 3,
+          "description": "The actual emoji you want, leave it blank to reset to ⭐"
+        }
+      ]
+    },
+    {
+      "name": "/set starboard count",
+      "description": "Sets a minimum # of votes for a message to be eligable for starboard",
+      "args": [
+        {
+          "name": "count",
+          "type": 4,
+          "description": "The minimum reaction count you want, leave it blank to reset to 3"
+        }
+      ]
+    },
+    {
+      "name": "/set suggestion channel",
+      "description": "Sets where the suggestion messages will send",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set suggestion emoji",
+      "description": "Sets a custom emoji for suggestion votes",
+      "args": [
+        {
+          "name": "agree",
+          "type": 3,
+          "description": "The actual emoji you want, leave it blank to reset to ✅"
+        },
+        {
+          "name": "disagree",
+          "type": 3,
+          "description": "The actual emoji you want, leave it blank to reset to ❎"
+        }
+      ]
+    },
+    {
+      "name": "/set welcome channel",
+      "description": "Sets where the welcome messages will send",
+      "args": [
+        {
+          "name": "channel",
+          "type": 7,
+          "description": "The actual channel you want, leave it blank to disable",
+          "channel_types": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/set welcome type",
+      "description": "Sets the type for the message",
+      "args": [
+        {
+          "name": "type",
+          "type": 3,
+          "description": "Can be either \"embed\" or \"string\", leave it blank to reset"
+        }
+      ]
+    },
+    {
+      "name": "/set welcome message",
+      "description": "Sets the type for the message",
+      "args": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "The actual message you want, leave it blank to reset"
+        }
+      ]
+    },
+    {
+      "name": "/view",
+      "description": "Views your current settings in this guild",
+      "args": null
+    }
+  ],
+  "developer": [
+    {
+      "name": "/dev gateway",
+      "description": "Checks the gateway status of the bot",
+      "args": null
+    },
+    {
+      "name": "/dev eval",
+      "description": "An eval command for my owners to use",
+      "args": [
+        {
+          "name": "code",
+          "type": 3,
+          "description": "The code my owners wants me to evaluate",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/dev lavalink connect",
+      "description": "To connect a specific or all the disconnected nodes",
+      "args": [
+        {
+          "name": "node",
+          "type": 3,
+          "description": "The node you want to connect, leave it blank to connect all"
+        }
+      ]
+    },
+    {
+      "name": "/dev lavalink disconnect",
+      "description": "To disconnect a specific or all the nodes",
+      "args": [
+        {
+          "name": "node",
+          "type": 3,
+          "description": "The node you want to disconnect, type \"all\" to disconnect all",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/dev lavalink routers",
+      "description": "Shows the current routers the servers use",
+      "args": null
+    },
+    {
+      "name": "/dev reload slash",
+      "description": "Reloads all the slash command data (Discord Side). Do a file reload first if you changed something",
+      "args": [
+        {
+          "name": "guild",
+          "type": 3,
+          "description": "The ID of the guild where to reload the slash commands (Used in dev instances)"
+        },
+        {
+          "name": "clear",
+          "type": 5,
+          "description": "Toggle to clear slash commands (Don't use unless you know what you are doing)"
+        }
+      ]
+    },
+    {
+      "name": "/dev reload command",
+      "description": "Reloads the slash command executor (Bot Side)",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "The name of the command",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "game": [
+    {
+      "name": "/azurlane ship",
+      "description": "Gets info about a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skills",
+      "description": "Gets the list of skill(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skins",
+      "description": "Gets the list of skin(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane gallery",
+      "description": "Gets the list of image(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane equip",
+      "description": "Gets info about an equip",
+      "args": [
+        {
+          "name": "equip",
+          "type": 3,
+          "description": "Name of the equip",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane barrage",
+      "description": "Gets the barrage pattern of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane chapter",
+      "description": "Gets info about a story chapter",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "Code of this chapter, ex: 6-4",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane voice",
+      "description": "Gets the voicelines of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu stats",
+      "description": "Gets a bit of info about the account of the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu replay",
+      "description": "Renders a replay in osu (.osr) replays",
+      "args": [
+        {
+          "name": "url",
+          "type": 3,
+          "description": "The URL for the osu replay file",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu recent",
+      "description": "Gets a bit of info about this user's recent play",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu top",
+      "description": "Gets this user top plays",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "general": [
+    {
+      "name": "/away",
+      "description": "Sets you as AFK so users will be aware of it if they mentioned you",
+      "args": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "If you have your own message",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/guild info",
+      "description": "Gets the info about guild where this is invoked",
+      "args": null
+    },
+    {
+      "name": "/guild role",
+      "description": "Gets the info about the role you specified",
+      "args": [
+        {
+          "name": "role",
+          "type": 8,
+          "description": "The role information you want to check",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/help",
+      "description": "Shows all the top-level commands of the bot",
+      "args": [
+        {
+          "name": "command",
+          "type": 3,
+          "description": "Shows the subcommands for the selected top level command"
+        }
+      ]
+    },
+    {
+      "name": "/info about",
+      "description": "About Kashima",
+      "args": null
+    },
+    {
+      "name": "/info vote",
+      "description": "Shows your vote validity status",
+      "args": null
+    },
+    {
+      "name": "/info patreon",
+      "description": "The users that support this bot",
+      "args": null
+    },
+    {
+      "name": "/ping",
+      "description": "Shows my current pings",
+      "args": null
+    },
+    {
+      "name": "/remind me",
+      "description": "Adds a new reminder",
+      "args": [
+        {
+          "name": "message",
+          "type": 3,
+          "description": "The thing you want me to remind you",
+          "required": true
+        },
+        {
+          "name": "time",
+          "type": 3,
+          "description": "How long should I wait to remind you",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/remind delete",
+      "description": "Deletes an existing reminder",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for the reminder you want to delete",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/remind get",
+      "description": "Gets a specific reminder from your stored reminders",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for the reminder you want to view",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/remind list",
+      "description": "Lists the entries on your reminders",
+      "args": null
+    },
+    {
+      "name": "/stats",
+      "description": "Gets the current status of the bot!",
+      "args": [
+        {
+          "name": "clusters",
+          "type": 5,
+          "description": "If you want to show the simplified per-cluster status"
+        }
+      ]
+    },
+    {
+      "name": "/user view",
+      "description": "Gets the info about the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to check"
+        }
+      ]
+    },
+    {
+      "name": "/user avatar",
+      "description": "Gets the avatar of the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to get the avatar"
+        }
+      ]
+    },
+    {
+      "name": "/user banner",
+      "description": "Gets the banner of the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to get the banner"
+        }
+      ]
+    }
+  ],
+  "image": [
+    {
+      "name": "/bonk",
+      "description": "Bonks a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to bonk"
+        }
+      ]
+    },
+    {
+      "name": "/generate challenger",
+      "description": "Generates a new challenger approaching image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate facepalm",
+      "description": "Generates a new facepalm image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate garbage",
+      "description": "Generates a new garbage image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate horny",
+      "description": "Generates a horny individual image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate karen",
+      "description": "Generates a karen image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate license",
+      "description": "Generates a license to have lolis image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate lolice",
+      "description": "Generates a lolice image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate looking",
+      "description": "Generates a looking at you image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate respect",
+      "description": "Generates a press F to pay respects image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate shindeiru",
+      "description": "Generates a shindeiru image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate step",
+      "description": "Generates a step on you image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate stonks",
+      "description": "Generates a stonks image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate trade",
+      "description": "Generates a trade offer image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        },
+        {
+          "name": "receive",
+          "type": 3,
+          "description": "The receive message for this trade",
+          "required": true
+        },
+        {
+          "name": "give",
+          "type": 3,
+          "description": "The give message for this trade",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate wanted",
+      "description": "Generates a wanted image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate weeb",
+      "description": "Generates a smh weeb image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/neko",
+      "description": "Gets a random catgirl / neko image",
+      "args": null
+    },
+    {
+      "name": "/nou",
+      "description": "Generates an uno reverse card from your avatar",
+      "args": null
+    },
+    {
+      "name": "/postfx blur",
+      "description": "Applies a blur effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "intensity",
+          "type": 4,
+          "description": "The intensity for the blur effect"
+        }
+      ]
+    },
+    {
+      "name": "/postfx greyscale",
+      "description": "Applies a greyscale effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "inverted",
+          "type": 5,
+          "description": "If the greyscale filter should apply the effect inverted"
+        }
+      ]
+    },
+    {
+      "name": "/postfx invert",
+      "description": "Applies an inverted effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        }
+      ]
+    },
+    {
+      "name": "/postfx oldfriend",
+      "description": "Applies an oldfriend effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "intensity",
+          "type": 4,
+          "description": "The intensity for the oldfriend effect"
+        }
+      ]
+    },
+    {
+      "name": "/postfx sepia",
+      "description": "Applies a sepia effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        }
+      ]
+    },
+    {
+      "name": "/postfx sharpen",
+      "description": "Applies a sharpening effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "intensity",
+          "type": 4,
+          "description": "The intensity for the sharpening effect"
+        }
+      ]
+    },
+    {
+      "name": "/postfx silhouette",
+      "description": "Creates a silhouette image based on the image you passed here",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        }
+      ]
+    },
+    {
+      "name": "/postfx threshold",
+      "description": "Applies a threshold effect on your image",
+      "args": [
+        {
+          "name": "avatar",
+          "type": 6,
+          "description": "The user you want to get their profile picture post processed"
+        },
+        {
+          "name": "url",
+          "type": 3,
+          "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "intensity",
+          "type": 4,
+          "description": "The intensity for the threshold effect"
+        }
+      ]
+    },
+    {
+      "name": "/random awoo",
+      "description": "Grabs a random awoo image",
+      "args": null
+    },
+    {
+      "name": "/random baka",
+      "description": "Grabs a random baka image",
+      "args": null
+    },
+    {
+      "name": "/random deredere",
+      "description": "Grabs a random deredere image",
+      "args": null
+    },
+    {
+      "name": "/random jojo",
+      "description": "Grabs a random jojo image",
+      "args": null
+    },
+    {
+      "name": "/random megumin",
+      "description": "Grabs a random megumin image",
+      "args": null
+    },
+    {
+      "name": "/random nani",
+      "description": "Grabs a random nani image",
+      "args": null
+    },
+    {
+      "name": "/random poi",
+      "description": "Grabs a random poi image",
+      "args": null
+    },
+    {
+      "name": "/random trap",
+      "description": "Grabs a random trap image",
+      "args": null
+    },
+    {
+      "name": "/random dorifto",
+      "description": "Grabs a random dorifto image",
+      "args": null
+    },
+    {
+      "name": "/random cat",
+      "description": "Grabs a random cat image",
+      "args": null
+    },
+    {
+      "name": "/random dog",
+      "description": "Grabs a random dog image",
+      "args": null
+    },
+    {
+      "name": "/ship",
+      "description": "Ships and generates how compatibe the users are",
+      "args": [
+        {
+          "name": "shipped",
+          "type": 6,
+          "description": "The user you want to be ship",
+          "required": true
+        },
+        {
+          "name": "shipper",
+          "type": 6,
+          "description": "If you want to ship another user that isn't you"
+        }
+      ]
+    },
+    {
+      "name": "/sus",
+      "description": "Ejects a sus user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to eject",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "moderation": [
+    {
+      "name": "/ban",
+      "description": "Bans a user out of your Discord guild",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to ban",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason why you banned this user"
+        }
+      ]
+    },
+    {
+      "name": "/kick",
+      "description": "Kicks a user out of your Discord guild",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to kick",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason why you kicked this user"
+        }
+      ]
+    },
+    {
+      "name": "/modlog list",
+      "description": "Lists the entries on your modlog",
+      "args": null
+    },
+    {
+      "name": "/modlog get",
+      "description": "Gets a specific modlog from your modlogs",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for the modlog you want to view",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/mute",
+      "description": "Mutes a user in your Discord guild",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to mute",
+          "required": true
+        },
+        {
+          "name": "time",
+          "type": 3,
+          "description": "The mute duration, blank means the mute is permanent until you unmute the user"
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason why you muted this user"
+        }
+      ]
+    },
+    {
+      "name": "/prune",
+      "description": "Prunes messages in the channel where this was used",
+      "args": [
+        {
+          "name": "count",
+          "type": 4,
+          "description": "The amount of messages to prune",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/unmute",
+      "description": "Unmutes a user in your Discord guild",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to unmute",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason why you unmuted this user"
+        }
+      ]
+    }
+  ],
+  "music": [
+    {
+      "name": "/effects nightcore",
+      "description": "Enables the nightcore effect on the player",
+      "args": [
+        {
+          "name": "speed",
+          "type": 10,
+          "description": "How fast your nightcore playback from 1.0 to 3.0; Recommended 1.3 to 1.5"
+        }
+      ]
+    },
+    {
+      "name": "/effects 8d",
+      "description": "Enables the 8D audio effect on the player",
+      "args": [
+        {
+          "name": "strength",
+          "type": 10,
+          "description": "Strength of this panning effect from 0.0 to 3.0; Recommended 0.1 or lower"
+        }
+      ]
+    },
+    {
+      "name": "/effects vaporwave",
+      "description": "Enables the vaporwave effect on the player",
+      "args": null
+    },
+    {
+      "name": "/effects karaoke",
+      "description": "Enables the karaoke effect on the player",
+      "args": null
+    },
+    {
+      "name": "/effects clear",
+      "description": "Clears the applied effects in the player",
+      "args": null
+    },
+    {
+      "name": "/effects bassboost off",
+      "description": "Disables the bassboost effect",
+      "args": null
+    },
+    {
+      "name": "/effects bassboost mild",
+      "description": "Sets the bassboost effect to mild",
+      "args": null
+    },
+    {
+      "name": "/effects bassboost normal",
+      "description": "Sets the bassboost effect to normal",
+      "args": null
+    },
+    {
+      "name": "/effects bassboost high",
+      "description": "Sets the bassboost effect to high",
+      "args": null
+    },
+    {
+      "name": "/effects bassboost max",
+      "description": "Sets the bassboost effect to max",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer off",
+      "description": "Disables the equalizer",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer default",
+      "description": "Sets the equalizer to default",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer pop",
+      "description": "Sets the equalizer to pop",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer electronic",
+      "description": "Sets the equalizer to electronic",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer rock",
+      "description": "Sets the equalizer to rock",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer loud",
+      "description": "Sets the equalizer to loud",
+      "args": null
+    },
+    {
+      "name": "/effects equalizer gaming",
+      "description": "Sets the equalizer to gaming",
+      "args": null
+    },
+    {
+      "name": "/move",
+      "description": "Moves a song in your queue",
+      "args": [
+        {
+          "name": "track",
+          "type": 3,
+          "description": "The track to move, can be the track title or the track number",
+          "required": true
+        },
+        {
+          "name": "position",
+          "type": 4,
+          "description": "The new position for this track",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/np",
+      "description": "Shows the currently playing song of the player",
+      "args": null
+    },
+    {
+      "name": "/play direct",
+      "description": "Plays the audio resource in the URL you specified",
+      "args": [
+        {
+          "name": "url",
+          "type": 3,
+          "description": "The actual link for this resource",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/play playlist",
+      "description": "Plays a playlist you saved from playlist command",
+      "args": null
+    },
+    {
+      "name": "/play search soundcloud",
+      "description": "Searches a resource to play on soundcloud",
+      "args": [
+        {
+          "name": "term",
+          "type": 3,
+          "description": "Search term to use for searching",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/play search spotify",
+      "description": "Searches a resource to play on soundcloud",
+      "args": [
+        {
+          "name": "term",
+          "type": 3,
+          "description": "Search term to use for searching, defaults to track if type is unspecified",
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": 3,
+          "description": "The search type, can be \"playlist\", \"album\", or \"artist\". Defaults to track if unspecified"
+        }
+      ]
+    },
+    {
+      "name": "/play listenmoe jpop",
+      "description": "Tunes in to LISTEN.moe (J-pop) station",
+      "args": null
+    },
+    {
+      "name": "/play listenmoe kpop",
+      "description": "Tunes in to LISTEN.moe (K-pop) station",
+      "args": null
+    },
+    {
+      "name": "/playback auto",
+      "description": "Toggles the autoplay mode of the player",
+      "args": null
+    },
+    {
+      "name": "/playback shuffle",
+      "description": "Shuffles the current queue of the player",
+      "args": null
+    },
+    {
+      "name": "/playback pause",
+      "description": "Pauses the playback of the player",
+      "args": null
+    },
+    {
+      "name": "/playback resume",
+      "description": "Resumes the playback of the player",
+      "args": null
+    },
+    {
+      "name": "/playback seek",
+      "description": "Resumes the playback of the player",
+      "args": [
+        {
+          "name": "time",
+          "type": 3,
+          "description": "The time you want to seek to, ex: 30s, 1m 30s, 1h 30m",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/playback repeat off",
+      "description": "Normal playback mode of the player",
+      "args": null
+    },
+    {
+      "name": "/playback repeat one",
+      "description": "Repeats the now playing track of the player",
+      "args": null
+    },
+    {
+      "name": "/playback repeat all",
+      "description": "Repeats all the tracks in queue",
+      "args": null
+    },
+    {
+      "name": "/playlist save",
+      "description": "Saves the current queue as a new playlist or updates an existing one",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "The name of the playlist to save",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/playlist delete",
+      "description": "Deletes the existing playlist you specified",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "The name of the playlist to delete",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/queue",
+      "description": "Shows all the current songs in the queue",
+      "args": null
+    },
+    {
+      "name": "/remove",
+      "description": "Removes a song in your queue",
+      "args": [
+        {
+          "name": "track",
+          "type": 3,
+          "description": "The track to remove, can be the track title or the track number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/skip",
+      "description": "Skips the song to the queue # you want",
+      "args": [
+        {
+          "name": "amount",
+          "type": 4,
+          "description": "How many to skip, defaults to 1 if left blank"
+        }
+      ]
+    },
+    {
+      "name": "/stop",
+      "description": "Stops and destroys the music playback in your guild",
+      "args": null
+    },
+    {
+      "name": "/volume",
+      "description": "Contains various effect options to apply on player",
+      "args": [
+        {
+          "name": "scale",
+          "type": 4,
+          "description": "Sets a new volume for this playback. 0 to 200",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "suggestion": [
+    {
+      "name": "/suggest",
+      "description": "Suggests something! make sure suggestion module is turned on",
+      "args": [
+        {
+          "name": "suggestion",
+          "type": 3,
+          "description": "The actual thing you want to suggest",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/suggestion list",
+      "description": "Lists the entries on your suggestions",
+      "args": null
+    },
+    {
+      "name": "/suggestion get",
+      "description": "Gets a specific suggestion from your suggestions",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for the suggestion you want to view",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/suggestion update approve",
+      "description": "Approves an existing suggestion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for this suggestion",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason for approving this suggestion"
+        }
+      ]
+    },
+    {
+      "name": "/suggestion update reject",
+      "description": "Rejects an existing suggestion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for this suggestion",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason for rejecting this suggestion"
+        }
+      ]
+    },
+    {
+      "name": "/suggestion update consider",
+      "description": "Considers an existing suggestion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for this suggestion",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason for considering this suggestion"
+        }
+      ]
+    }
+  ]
+}

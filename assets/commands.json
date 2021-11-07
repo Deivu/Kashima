@@ -158,7 +158,7 @@
       ]
     },
     {
-      "name": "/set nsfw",
+      "name": "/set lewd",
       "description": "Sets the configuration for NSFW commands in your guild",
       "args": [
         {
@@ -170,7 +170,7 @@
         {
           "name": "channel",
           "type": 7,
-          "description": "Locks this command into a specific nsfw channel, leave it blank to disable",
+          "description": "Locks these commands into a specific nsfw channel, leave it blank to disable",
           "channel_types": [
             0
           ]
@@ -185,6 +185,8 @@
           "name": "level",
           "type": 4,
           "description": "0 disables the module, 1 for delete invite, 2 for delete and kick, 3 for delete and ban",
+          "min_value": 0,
+          "max_value": 3,
           "required": true
         },
         {
@@ -294,7 +296,9 @@
         {
           "name": "level",
           "type": 4,
-          "description": "Your new defaul volume, leave it blank to reset"
+          "description": "Your new default volume (1-200), leave it blank to reset to 100",
+          "min_value": 1,
+          "max_value": 200
         }
       ]
     },
@@ -311,7 +315,9 @@
         {
           "name": "count",
           "type": 4,
-          "description": "If you want to change the minimum count for vote, leave it blank to reset to 3"
+          "description": "If you want to change the minimum count (1-10) for vote, leave it blank to reset to 3",
+          "min_value": 1,
+          "max_value": 10
         }
       ]
     },
@@ -347,7 +353,9 @@
         {
           "name": "count",
           "type": 4,
-          "description": "The minimum reaction count you want, leave it blank to reset to 3"
+          "description": "The minimum reaction count (1-10) you want, leave it blank to reset to 3",
+          "min_value": 1,
+          "max_value": 10
         }
       ]
     },
@@ -468,34 +476,6 @@
       "name": "/dev lavalink routers",
       "description": "Shows the current routers the servers use",
       "args": null
-    },
-    {
-      "name": "/dev reload slash",
-      "description": "Reloads all the slash command data (Discord Side). Do a file reload first if you changed something",
-      "args": [
-        {
-          "name": "guild",
-          "type": 3,
-          "description": "The ID of the guild where to reload the slash commands (Used in dev instances)"
-        },
-        {
-          "name": "clear",
-          "type": 5,
-          "description": "Toggle to clear slash commands (Don't use unless you know what you are doing)"
-        }
-      ]
-    },
-    {
-      "name": "/dev reload command",
-      "description": "Reloads the slash command executor (Bot Side)",
-      "args": [
-        {
-          "name": "name",
-          "type": 3,
-          "description": "The name of the command",
-          "required": true
-        }
-      ]
     }
   ],
   "game": [
@@ -1002,6 +982,26 @@
       ]
     },
     {
+      "name": "/lewd neko",
+      "description": "Grabs a random neko image",
+      "args": null
+    },
+    {
+      "name": "/lewd oppai",
+      "description": "Grabs a random oppai image",
+      "args": null
+    },
+    {
+      "name": "/lewd thigh",
+      "description": "Grabs a random thigh image",
+      "args": null
+    },
+    {
+      "name": "/lewd kitsune",
+      "description": "Grabs a random kitsune image",
+      "args": null
+    },
+    {
       "name": "/neko",
       "description": "Gets a random catgirl / neko image",
       "args": null
@@ -1026,9 +1026,11 @@
           "description": "An image URL of the picture you want to get post processed"
         },
         {
-          "name": "intensity",
+          "name": "px",
           "type": 4,
-          "description": "The intensity for the blur effect"
+          "description": "The pixel to blur (1-32) for the blur effect",
+          "min_value": 1,
+          "max_value": 32
         }
       ]
     },
@@ -1047,9 +1049,11 @@
           "description": "An image URL of the picture you want to get post processed"
         },
         {
-          "name": "inverted",
-          "type": 5,
-          "description": "If the greyscale filter should apply the effect inverted"
+          "name": "percent",
+          "type": 4,
+          "description": "The percentage (1-100) for the greyscale effect",
+          "min_value": 1,
+          "max_value": 100
         }
       ]
     },
@@ -1066,6 +1070,13 @@
           "name": "url",
           "type": 3,
           "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "percent",
+          "type": 4,
+          "description": "The percentage (1-100) for the invert effect",
+          "min_value": 1,
+          "max_value": 100
         }
       ]
     },
@@ -1084,9 +1095,11 @@
           "description": "An image URL of the picture you want to get post processed"
         },
         {
-          "name": "intensity",
+          "name": "percent",
           "type": 4,
-          "description": "The intensity for the oldfriend effect"
+          "description": "The percentage (1-100) for the oldfriend effect",
+          "min_value": 1,
+          "max_value": 100
         }
       ]
     },
@@ -1103,6 +1116,13 @@
           "name": "url",
           "type": 3,
           "description": "An image URL of the picture you want to get post processed"
+        },
+        {
+          "name": "percent",
+          "type": 4,
+          "description": "The percentage (1-100) for the oldfriend effect",
+          "min_value": 1,
+          "max_value": 100
         }
       ]
     },
@@ -1123,7 +1143,9 @@
         {
           "name": "intensity",
           "type": 4,
-          "description": "The intensity for the sharpening effect"
+          "description": "The intensity (1-8) for the sharpening effect",
+          "min_value": 1,
+          "max_value": 8
         }
       ]
     },
@@ -1158,9 +1180,11 @@
           "description": "An image URL of the picture you want to get post processed"
         },
         {
-          "name": "intensity",
+          "name": "range",
           "type": 4,
-          "description": "The intensity for the threshold effect"
+          "description": "The range (1-256) for the threshold effect",
+          "min_value": 1,
+          "max_value": 256
         }
       ]
     },
@@ -1330,7 +1354,9 @@
         {
           "name": "count",
           "type": 4,
-          "description": "The amount of messages to prune",
+          "description": "The amount of messages (1-100) to prune",
+          "min_value": 1,
+          "max_value": 100,
           "required": true
         }
       ]
@@ -1361,7 +1387,9 @@
         {
           "name": "speed",
           "type": 10,
-          "description": "How fast your nightcore playback from 1.0 to 3.0; Recommended 1.3 to 1.5"
+          "description": "How fast your nightcore playback from (1.0-3.0); Recommended: 1.2-1.5",
+          "min_value": 1,
+          "max_value": 3
         }
       ]
     },
@@ -1372,7 +1400,9 @@
         {
           "name": "strength",
           "type": 10,
-          "description": "Strength of this panning effect from 0.0 to 3.0; Recommended 0.1 or lower"
+          "description": "Strength of this panning effect from (0.0-3.0); Recommended: 0.1",
+          "min_value": 0,
+          "max_value": 3
         }
       ]
     },
@@ -1449,6 +1479,11 @@
     {
       "name": "/effects equalizer gaming",
       "description": "Sets the equalizer to gaming",
+      "args": null
+    },
+    {
+      "name": "/lyrics",
+      "description": "Gets the lyrics for the currently playing track",
       "args": null
     },
     {
@@ -1602,6 +1637,11 @@
       ]
     },
     {
+      "name": "/previous",
+      "description": "Goes back to the most recent track in your queue history (Max 25 tracks)",
+      "args": null
+    },
+    {
       "name": "/queue",
       "description": "Shows all the current songs in the queue",
       "args": null
@@ -1620,12 +1660,12 @@
     },
     {
       "name": "/skip",
-      "description": "Skips the song to the queue # you want",
+      "description": "Skips the currently playing track",
       "args": [
         {
-          "name": "amount",
+          "name": "to",
           "type": 4,
-          "description": "How many to skip, defaults to 1 if left blank"
+          "description": "Skips to the specified song in queue, leave it blank to skip to next song"
         }
       ]
     },
@@ -1636,12 +1676,14 @@
     },
     {
       "name": "/volume",
-      "description": "Contains various effect options to apply on player",
+      "description": "Changes the volume for this playback",
       "args": [
         {
           "name": "scale",
           "type": 4,
-          "description": "Sets a new volume for this playback. 0 to 200",
+          "description": "Sets a new volume (1-200) for this playback",
+          "min_value": 1,
+          "max_value": 200,
           "required": true
         }
       ]

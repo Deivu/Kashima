@@ -1,0 +1,25 @@
+{
+  "short_name": "Kashima",
+  "name": "Kashima website",
+  "icons": [
+    {
+      "src": "https://i0.wp.com/kashima.moe/wp-content/uploads/2018/11/kashima_neko_chibi_kantai_collection_render_by_tomoe_waterfox-dc0bef5-1.png?fit=1440%2C1440&ssl=1",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://i0.wp.com/kashima.moe/wp-content/uploads/2018/11/kashima_neko_chibi_kantai_collection_render_by_tomoe_waterfox-dc0bef5-1.png?fit=1440%2C1440&ssl=1",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i0.wp.com/kashima.moe/wp-content/uploads/2018/11/kashima_neko_chibi_kantai_collection_render_by_tomoe_waterfox-dc0bef5-1.png?fit=1440%2C1440&ssl=1",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

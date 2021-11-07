@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Kashima/static/css/main.8ba0feff.chunk.css",
+    "main.js": "/Kashima/static/js/main.86108000.chunk.js",
+    "main.js.map": "/Kashima/static/js/main.86108000.chunk.js.map",
+    "runtime-main.js": "/Kashima/static/js/runtime-main.de2bf893.js",
+    "runtime-main.js.map": "/Kashima/static/js/runtime-main.de2bf893.js.map",
+    "static/js/2.941f9531.chunk.js": "/Kashima/static/js/2.941f9531.chunk.js",
+    "static/js/2.941f9531.chunk.js.map": "/Kashima/static/js/2.941f9531.chunk.js.map",
+    "index.html": "/Kashima/index.html",
+    "static/css/main.8ba0feff.chunk.css.map": "/Kashima/static/css/main.8ba0feff.chunk.css.map",
+    "static/js/2.941f9531.chunk.js.LICENSE.txt": "/Kashima/static/js/2.941f9531.chunk.js.LICENSE.txt",
+    "static/media/loading.e9dbb354.gif": "/Kashima/static/media/loading.e9dbb354.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de2bf893.js",
+    "static/js/2.941f9531.chunk.js",
+    "static/css/main.8ba0feff.chunk.css",
+    "static/js/main.86108000.chunk.js"
+  ]
+}

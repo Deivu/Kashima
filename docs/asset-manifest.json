@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Kashima/static/css/main.9003d508.chunk.css",
-    "main.js": "/Kashima/static/js/main.f31fb398.chunk.js",
-    "main.js.map": "/Kashima/static/js/main.f31fb398.chunk.js.map",
+    "main.css": "/Kashima/static/css/main.a356f3fa.chunk.css",
+    "main.js": "/Kashima/static/js/main.3660c85c.chunk.js",
+    "main.js.map": "/Kashima/static/js/main.3660c85c.chunk.js.map",
     "runtime-main.js": "/Kashima/static/js/runtime-main.de2bf893.js",
     "runtime-main.js.map": "/Kashima/static/js/runtime-main.de2bf893.js.map",
-    "static/js/2.d6a9a0cb.chunk.js": "/Kashima/static/js/2.d6a9a0cb.chunk.js",
-    "static/js/2.d6a9a0cb.chunk.js.map": "/Kashima/static/js/2.d6a9a0cb.chunk.js.map",
+    "static/js/2.12db2a11.chunk.js": "/Kashima/static/js/2.12db2a11.chunk.js",
+    "static/js/2.12db2a11.chunk.js.map": "/Kashima/static/js/2.12db2a11.chunk.js.map",
     "index.html": "/Kashima/index.html",
-    "static/css/main.9003d508.chunk.css.map": "/Kashima/static/css/main.9003d508.chunk.css.map",
-    "static/js/2.d6a9a0cb.chunk.js.LICENSE.txt": "/Kashima/static/js/2.d6a9a0cb.chunk.js.LICENSE.txt",
+    "static/css/main.a356f3fa.chunk.css.map": "/Kashima/static/css/main.a356f3fa.chunk.css.map",
+    "static/js/2.12db2a11.chunk.js.LICENSE.txt": "/Kashima/static/js/2.12db2a11.chunk.js.LICENSE.txt",
     "static/media/loading.e9dbb354.gif": "/Kashima/static/media/loading.e9dbb354.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.de2bf893.js",
-    "static/js/2.d6a9a0cb.chunk.js",
-    "static/css/main.9003d508.chunk.css",
-    "static/js/main.f31fb398.chunk.js"
+    "static/js/2.12db2a11.chunk.js",
+    "static/css/main.a356f3fa.chunk.css",
+    "static/js/main.3660c85c.chunk.js"
   ]
 }

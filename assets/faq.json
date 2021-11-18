@@ -9,22 +9,26 @@
   },
   {
     "question": "What can Kashima do?",
-    "answer": "She can do a lot of things now, and you can see what she can do by using her help command."
+    "answer": "She can do a lot of things now, and you can see what she can do by using her /help"
   },
   {
-    "question": "Why Kashima doesn't respond?",
-    "answer": "Permissions, Check your Channel Overrides and Role Permissions and make sure Kashima have these basic permissions\n### View Channel\n### Send Message\n### Embed Links\n### Attach Files\n### Use External Emojis\nIf she don't have even one of that permissions, she will not respond because she needs those basic permissions to work without problems"
+    "question": "Why do slash commands doesn't show up?",
+    "answer": "You invited Kashima using her old invite link. Reinvite her using her new invite link: [New Kashima Invite](https://discord.com/api/oauth2/authorize?client_id=424137718961012737&permissions=137744477510&scope=bot%20applications.commands)"
   },
   {
     "question": "I am having problem with vote locked commands.",
     "answer": "If you have problems on vote system, make sure you checked the following. \n1. Did you vote in the right account? To check, go to Kashima's voting page with Incognito mode or Private Mode, then login the right account there, if you can vote then you may have voted in wrong account.\n2. Let it refresh, usually it takes about less than a minute up to 5 minutes, but it would depend on their servers on how fast they can give the data to us."
   },
   {
+    "question": "I don't know how to queue a song",
+    "answer": "To queue a song link, use `/play direct`. To search for tracks, use `/play search soundcloud` or `/play search spotify`"
+  },
+  {
     "question": "How can we get in touch with the developers?",
-    "answer": "If you want, you can contact `@Saya#0113` in Discord. I always stay online as much as possible on our server which is the [FleetGirls Collection](https://discordapp.com/invite/FVqbtGu)"
+    "answer": "If you want, you can contact me `@Sāya#0113` in Discord. I always stay online as much as possible on our server which is the [ShipGirls Community](https://discord.gg/FVqbtGu)"
   },
   {
     "question": "What if my question isn't in here?",
-    "answer": "Join my Server which is the [FleetGirls Collection](https://discordapp.com/invite/FVqbtGu) and look for #bot-support .channel."
+    "answer": "Join my Server which is the [ShipGirls Community](https://discord.gg/FVqbtGu) and look for #bot-support .channel."
   }
 ]

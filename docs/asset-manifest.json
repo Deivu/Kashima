@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Kashima/static/css/main.a356f3fa.chunk.css",
-    "main.js": "/Kashima/static/js/main.3660c85c.chunk.js",
-    "main.js.map": "/Kashima/static/js/main.3660c85c.chunk.js.map",
+    "main.css": "/Kashima/static/css/main.0ae5af7d.chunk.css",
+    "main.js": "/Kashima/static/js/main.2efbb6b1.chunk.js",
+    "main.js.map": "/Kashima/static/js/main.2efbb6b1.chunk.js.map",
     "runtime-main.js": "/Kashima/static/js/runtime-main.de2bf893.js",
     "runtime-main.js.map": "/Kashima/static/js/runtime-main.de2bf893.js.map",
-    "static/js/2.12db2a11.chunk.js": "/Kashima/static/js/2.12db2a11.chunk.js",
-    "static/js/2.12db2a11.chunk.js.map": "/Kashima/static/js/2.12db2a11.chunk.js.map",
+    "static/css/2.4d8d6c40.chunk.css": "/Kashima/static/css/2.4d8d6c40.chunk.css",
+    "static/js/2.0c620a6d.chunk.js": "/Kashima/static/js/2.0c620a6d.chunk.js",
+    "static/js/2.0c620a6d.chunk.js.map": "/Kashima/static/js/2.0c620a6d.chunk.js.map",
     "index.html": "/Kashima/index.html",
-    "static/css/main.a356f3fa.chunk.css.map": "/Kashima/static/css/main.a356f3fa.chunk.css.map",
-    "static/js/2.12db2a11.chunk.js.LICENSE.txt": "/Kashima/static/js/2.12db2a11.chunk.js.LICENSE.txt",
+    "static/css/2.4d8d6c40.chunk.css.map": "/Kashima/static/css/2.4d8d6c40.chunk.css.map",
+    "static/css/main.0ae5af7d.chunk.css.map": "/Kashima/static/css/main.0ae5af7d.chunk.css.map",
+    "static/js/2.0c620a6d.chunk.js.LICENSE.txt": "/Kashima/static/js/2.0c620a6d.chunk.js.LICENSE.txt",
     "static/media/loading.e9dbb354.gif": "/Kashima/static/media/loading.e9dbb354.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.de2bf893.js",
-    "static/js/2.12db2a11.chunk.js",
-    "static/css/main.a356f3fa.chunk.css",
-    "static/js/main.3660c85c.chunk.js"
+    "static/css/2.4d8d6c40.chunk.css",
+    "static/js/2.0c620a6d.chunk.js",
+    "static/css/main.0ae5af7d.chunk.css",
+    "static/js/main.2efbb6b1.chunk.js"
   ]
 }

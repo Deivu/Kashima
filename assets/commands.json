@@ -576,6 +576,16 @@
       ]
     },
     {
+      "name": "/guess default",
+      "description": "Picks a random shipgirl from azurlane to guess from default skins only",
+      "args": null
+    },
+    {
+      "name": "/guess skins",
+      "description": "Picks a random shipgirl form azurlane to guess with it's custom skins",
+      "args": null
+    },
+    {
       "name": "/osu stats",
       "description": "Gets a bit of info about the account of the user you specified",
       "args": [
@@ -678,6 +688,11 @@
     {
       "name": "/info patreon",
       "description": "The users that support this bot",
+      "args": null
+    },
+    {
+      "name": "/info privacy",
+      "description": "About our privacy policy",
       "args": null
     },
     {
@@ -1523,7 +1538,7 @@
     },
     {
       "name": "/play playlist",
-      "description": "Plays a playlist you saved from playlist command",
+      "description": "Enqueues a playlist that you saved using playlist command",
       "args": null
     },
     {
@@ -1613,13 +1628,58 @@
       "args": null
     },
     {
+      "name": "/playlist view",
+      "description": "Views the playlists you have created",
+      "args": null
+    },
+    {
       "name": "/playlist save",
-      "description": "Saves the current queue as a new playlist or updates an existing one",
+      "description": "Saves the current queue as a new playlist or overwrites an existing playlist",
       "args": [
         {
           "name": "name",
           "type": 3,
           "description": "The name of the playlist to save",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/playlist add",
+      "description": "Adds the currently playing track or a track you specified to a playlist",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "The name of the playlist where you want the track to be saved",
+          "required": true
+        },
+        {
+          "name": "track",
+          "type": 3,
+          "description": "If specified, this track will be added to the playlist instead"
+        },
+        {
+          "name": "top",
+          "type": 5,
+          "description": "If you want the track to be added on top of the playlist tracks"
+        }
+      ]
+    },
+    {
+      "name": "/playlist remove",
+      "description": "Removes a track in a playlist",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "The name of the playlist where you want to remove a track",
+          "required": true
+        },
+        {
+          "name": "track",
+          "type": 3,
+          "description": "The track you want to remove, can be a number or track title",
           "required": true
         }
       ]
@@ -1708,8 +1768,25 @@
       "args": null
     },
     {
+      "name": "/suggestion prune",
+      "description": "Prunes the accepted & rejected suggestions from this guild to free up suggestion slots",
+      "args": null
+    },
+    {
       "name": "/suggestion get",
       "description": "Gets a specific suggestion from your suggestions",
+      "args": [
+        {
+          "name": "identifier",
+          "type": 3,
+          "description": "The identifier for the suggestion you want to view",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/suggestion delete",
+      "description": "Force deletes a suggestion regardless of status",
       "args": [
         {
           "name": "identifier",

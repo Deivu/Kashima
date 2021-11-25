@@ -304,7 +304,7 @@
     },
     {
       "name": "/set music voting",
-      "description": "Sets the default volume for your player",
+      "description": "Sets whether to enable / disable voting for skip and stop",
       "args": [
         {
           "name": "enable",
@@ -416,7 +416,7 @@
     },
     {
       "name": "/set welcome message",
-      "description": "Sets the type for the message",
+      "description": "Sets the message you want to be shown on member join",
       "args": [
         {
           "name": "message",
@@ -1538,7 +1538,7 @@
     },
     {
       "name": "/play playlist",
-      "description": "Enqueues a playlist that you saved using playlist command",
+      "description": "Enqueues a playlist that you saved using /playlist command",
       "args": null
     },
     {
@@ -1555,7 +1555,7 @@
     },
     {
       "name": "/play search spotify",
-      "description": "Searches a resource to play on soundcloud",
+      "description": "Searches a resource to play on spotify",
       "args": [
         {
           "name": "term",
@@ -1602,7 +1602,7 @@
     },
     {
       "name": "/playback seek",
-      "description": "Resumes the playback of the player",
+      "description": "Seeks the playback to the time of your choice",
       "args": [
         {
           "name": "time",

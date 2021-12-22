@@ -1497,6 +1497,16 @@
       "args": null
     },
     {
+      "name": "/listenmoe jpop",
+      "description": "Tunes in to LISTEN.moe (J-pop) station",
+      "args": null
+    },
+    {
+      "name": "/listenmoe kpop",
+      "description": "Tunes in to LISTEN.moe (K-pop) station",
+      "args": null
+    },
+    {
       "name": "/lyrics",
       "description": "Gets the lyrics for the currently playing track",
       "args": null
@@ -1525,60 +1535,16 @@
       "args": null
     },
     {
-      "name": "/play direct",
-      "description": "Plays the audio resource in the URL you specified",
+      "name": "/play",
+      "description": "Plays or enqueues a song",
       "args": [
         {
-          "name": "url",
+          "name": "query",
           "type": 3,
-          "description": "The actual link for this resource",
+          "description": "An url or search term",
           "required": true
         }
       ]
-    },
-    {
-      "name": "/play playlist",
-      "description": "Enqueues a playlist that you saved using /playlist command",
-      "args": null
-    },
-    {
-      "name": "/play search soundcloud",
-      "description": "Searches a resource to play on soundcloud",
-      "args": [
-        {
-          "name": "term",
-          "type": 3,
-          "description": "Search term to use for searching",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/play search spotify",
-      "description": "Searches a resource to play on spotify",
-      "args": [
-        {
-          "name": "term",
-          "type": 3,
-          "description": "Search term to use for searching, defaults to track if type is unspecified",
-          "required": true
-        },
-        {
-          "name": "type",
-          "type": 3,
-          "description": "The search type, can be \"playlist\", \"album\", or \"artist\". Defaults to track if unspecified"
-        }
-      ]
-    },
-    {
-      "name": "/play listenmoe jpop",
-      "description": "Tunes in to LISTEN.moe (J-pop) station",
-      "args": null
-    },
-    {
-      "name": "/play listenmoe kpop",
-      "description": "Tunes in to LISTEN.moe (K-pop) station",
-      "args": null
     },
     {
       "name": "/playback auto",
@@ -1630,6 +1596,11 @@
     {
       "name": "/playlist view",
       "description": "Views the playlists you have created",
+      "args": null
+    },
+    {
+      "name": "/playlist load",
+      "description": "Loads a playlist you have created into queue",
       "args": null
     },
     {

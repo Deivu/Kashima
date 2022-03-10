@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/Kashima/static/css/main.937a4683.chunk.css",
-    "main.js": "/Kashima/static/js/main.569411bb.chunk.js",
-    "main.js.map": "/Kashima/static/js/main.569411bb.chunk.js.map",
-    "runtime-main.js": "/Kashima/static/js/runtime-main.de2bf893.js",
-    "runtime-main.js.map": "/Kashima/static/js/runtime-main.de2bf893.js.map",
-    "static/css/2.4d8d6c40.chunk.css": "/Kashima/static/css/2.4d8d6c40.chunk.css",
-    "static/js/2.1a0ed61d.chunk.js": "/Kashima/static/js/2.1a0ed61d.chunk.js",
-    "static/js/2.1a0ed61d.chunk.js.map": "/Kashima/static/js/2.1a0ed61d.chunk.js.map",
+    "main.css": "/Kashima/static/css/main.30d3d594.chunk.css",
+    "main.js": "/Kashima/static/js/main.d70d0976.chunk.js",
+    "main.js.map": "/Kashima/static/js/main.d70d0976.chunk.js.map",
+    "runtime-main.js": "/Kashima/static/js/runtime-main.2c024a02.js",
+    "runtime-main.js.map": "/Kashima/static/js/runtime-main.2c024a02.js.map",
+    "static/js/2.0775ec21.chunk.js": "/Kashima/static/js/2.0775ec21.chunk.js",
+    "static/js/2.0775ec21.chunk.js.map": "/Kashima/static/js/2.0775ec21.chunk.js.map",
     "index.html": "/Kashima/index.html",
-    "static/css/2.4d8d6c40.chunk.css.map": "/Kashima/static/css/2.4d8d6c40.chunk.css.map",
-    "static/css/main.937a4683.chunk.css.map": "/Kashima/static/css/main.937a4683.chunk.css.map",
-    "static/js/2.1a0ed61d.chunk.js.LICENSE.txt": "/Kashima/static/js/2.1a0ed61d.chunk.js.LICENSE.txt",
-    "static/media/loading.e9dbb354.gif": "/Kashima/static/media/loading.e9dbb354.gif"
+    "static/css/main.30d3d594.chunk.css.map": "/Kashima/static/css/main.30d3d594.chunk.css.map",
+    "static/js/2.0775ec21.chunk.js.LICENSE.txt": "/Kashima/static/js/2.0775ec21.chunk.js.LICENSE.txt",
+    "static/media/attachment.def34ee3.png": "/Kashima/static/media/attachment.def34ee3.png",
+    "static/media/boolean.4887f701.png": "/Kashima/static/media/boolean.4887f701.png",
+    "static/media/channel.4d7334c8.png": "/Kashima/static/media/channel.4d7334c8.png",
+    "static/media/integer.7af0d802.png": "/Kashima/static/media/integer.7af0d802.png",
+    "static/media/kashima.265c9b5e.png": "/Kashima/static/media/kashima.265c9b5e.png",
+    "static/media/loading.e9dbb354.gif": "/Kashima/static/media/loading.e9dbb354.gif",
+    "static/media/mentionable.23b47a31.png": "/Kashima/static/media/mentionable.23b47a31.png",
+    "static/media/number.409f0d24.png": "/Kashima/static/media/number.409f0d24.png",
+    "static/media/role.802c6a13.png": "/Kashima/static/media/role.802c6a13.png",
+    "static/media/string.a9d6e1a2.png": "/Kashima/static/media/string.a9d6e1a2.png",
+    "static/media/user.abec522f.png": "/Kashima/static/media/user.abec522f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.de2bf893.js",
-    "static/css/2.4d8d6c40.chunk.css",
-    "static/js/2.1a0ed61d.chunk.js",
-    "static/css/main.937a4683.chunk.css",
-    "static/js/main.569411bb.chunk.js"
+    "static/js/runtime-main.2c024a02.js",
+    "static/js/2.0775ec21.chunk.js",
+    "static/css/main.30d3d594.chunk.css",
+    "static/js/main.d70d0976.chunk.js"
   ]
 }

@@ -478,162 +478,6 @@
       "args": null
     }
   ],
-  "game": [
-    {
-      "name": "/azurlane ship",
-      "description": "Gets info about a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane skills",
-      "description": "Gets the list of skill(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane skins",
-      "description": "Gets the list of skin(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane gallery",
-      "description": "Gets the list of image(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane equip",
-      "description": "Gets info about an equip",
-      "args": [
-        {
-          "name": "equip",
-          "type": 3,
-          "description": "Name of the equip",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane barrage",
-      "description": "Gets the barrage pattern of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane chapter",
-      "description": "Gets info about a story chapter",
-      "args": [
-        {
-          "name": "name",
-          "type": 3,
-          "description": "Code of this chapter, ex: 6-4",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane voice",
-      "description": "Gets the voicelines of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/guess default",
-      "description": "Picks a random shipgirl from azurlane to guess from default skins only",
-      "args": null
-    },
-    {
-      "name": "/guess skins",
-      "description": "Picks a random shipgirl form azurlane to guess with it's custom skins",
-      "args": null
-    },
-    {
-      "name": "/osu stats",
-      "description": "Gets a bit of info about the account of the user you specified",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu replay",
-      "description": "Renders a replay in osu (.osr) replays",
-      "args": [
-        {
-          "name": "url",
-          "type": 3,
-          "description": "The URL for the osu replay file",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu recent",
-      "description": "Gets a bit of info about this user's recent play",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu top",
-      "description": "Gets this user top plays",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    }
-  ],
   "general": [
     {
       "name": "/away",
@@ -697,7 +541,7 @@
     },
     {
       "name": "/ping",
-      "description": "Shows my current pings",
+      "description": "Shows my current latencies around my basic services",
       "args": null
     },
     {
@@ -1288,6 +1132,174 @@
       ]
     }
   ],
+  "miscellaneous": [
+    {
+      "name": "/azurlane ship",
+      "description": "Gets info about a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skills",
+      "description": "Gets the list of skill(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skins",
+      "description": "Gets the list of skin(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane gallery",
+      "description": "Gets the list of image(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane equip",
+      "description": "Gets info about an equip",
+      "args": [
+        {
+          "name": "equip",
+          "type": 3,
+          "description": "Name of the equip",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane barrage",
+      "description": "Gets the barrage pattern of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane chapter",
+      "description": "Gets info about a story chapter",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "Code of this chapter, ex: 6-4",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane voice",
+      "description": "Gets the voicelines of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/guess default",
+      "description": "Picks a random shipgirl from azurlane to guess from default skins only",
+      "args": null
+    },
+    {
+      "name": "/guess skins",
+      "description": "Picks a random shipgirl form azurlane to guess with it's custom skins",
+      "args": null
+    },
+    {
+      "name": "/osu stats",
+      "description": "Gets a bit of info about the account of the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu replay",
+      "description": "Renders a replay in osu (.osr) replays",
+      "args": [
+        {
+          "name": "file",
+          "type": 11,
+          "description": "The replay file itself",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu recent",
+      "description": "Gets a bit of info about this user's recent play",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu top",
+      "description": "Gets this user top plays",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/urban",
+      "description": "Searches urban dictionary for a word",
+      "args": [
+        {
+          "name": "query",
+          "type": 3,
+          "description": "The word to search",
+          "required": true
+        }
+      ]
+    }
+  ],
   "moderation": [
     {
       "name": "/ban",
@@ -1353,7 +1365,8 @@
         {
           "name": "time",
           "type": 3,
-          "description": "The mute duration, blank means the mute is permanent until you unmute the user"
+          "description": "The mute duration",
+          "required": true
         },
         {
           "name": "reason",
@@ -1373,6 +1386,23 @@
           "min_value": 1,
           "max_value": 100,
           "required": true
+        }
+      ]
+    },
+    {
+      "name": "/unban",
+      "description": "Unbans a banned user in your guild",
+      "args": [
+        {
+          "name": "id",
+          "type": 3,
+          "description": "The ID of the user you want to unban",
+          "required": true
+        },
+        {
+          "name": "reason",
+          "type": 3,
+          "description": "The reason why you unbanned this user"
         }
       ]
     },
@@ -1508,8 +1538,14 @@
     },
     {
       "name": "/lyrics",
-      "description": "Gets the lyrics for the currently playing track",
-      "args": null
+      "description": "Gets the lyrics for a track or the currently playing track",
+      "args": [
+        {
+          "name": "query",
+          "type": 3,
+          "description": "An url or search term"
+        }
+      ]
     },
     {
       "name": "/move",
@@ -1626,7 +1662,7 @@
           "required": true
         },
         {
-          "name": "track",
+          "name": "query",
           "type": 3,
           "description": "If specified, this track will be added to the playlist instead"
         },
@@ -1669,7 +1705,7 @@
     },
     {
       "name": "/previous",
-      "description": "Goes back to the most recent track in your queue history (Max 25 tracks)",
+      "description": "Goes back to the most recent track in your queue history",
       "args": null
     },
     {
@@ -1690,6 +1726,18 @@
       ]
     },
     {
+      "name": "/search",
+      "description": "Searches a song",
+      "args": [
+        {
+          "name": "query",
+          "type": 3,
+          "description": "The term to search",
+          "required": true
+        }
+      ]
+    },
+    {
       "name": "/skip",
       "description": "Skips the currently playing track",
       "args": [
@@ -1704,6 +1752,18 @@
       "name": "/stop",
       "description": "Stops and destroys the music playback in your guild",
       "args": null
+    },
+    {
+      "name": "/upload",
+      "description": "Plays an uploaded song",
+      "args": [
+        {
+          "name": "file",
+          "type": 11,
+          "description": "The file to play",
+          "required": true
+        }
+      ]
     },
     {
       "name": "/volume",

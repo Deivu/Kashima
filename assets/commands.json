@@ -1,149 +1,4 @@
 {
-  "action": [
-    {
-      "name": "/action bite",
-      "description": "Bites a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to bite"
-        }
-      ]
-    },
-    {
-      "name": "/action greet",
-      "description": "Greets a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to greet"
-        }
-      ]
-    },
-    {
-      "name": "/action lick",
-      "description": "Licks a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to lick"
-        }
-      ]
-    },
-    {
-      "name": "/action poke",
-      "description": "Pokes a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to poke"
-        }
-      ]
-    },
-    {
-      "name": "/action pout",
-      "description": "Sends a pout",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to pout on"
-        }
-      ]
-    },
-    {
-      "name": "/action smile",
-      "description": "Sends a smile",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to smile on"
-        }
-      ]
-    },
-    {
-      "name": "/action stare",
-      "description": "Stares at a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to stare on"
-        }
-      ]
-    },
-    {
-      "name": "/action tickle",
-      "description": "Tickles a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to tickle"
-        }
-      ]
-    },
-    {
-      "name": "/cuddle",
-      "description": "Cuddles with a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to cuddle with"
-        }
-      ]
-    },
-    {
-      "name": "/hug",
-      "description": "Hugs a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to hug"
-        }
-      ]
-    },
-    {
-      "name": "/kiss",
-      "description": "Kisses a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to kiss"
-        }
-      ]
-    },
-    {
-      "name": "/pat",
-      "description": "Pats a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to pat"
-        }
-      ]
-    },
-    {
-      "name": "/wag",
-      "description": "Wags for a user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to wag on"
-        }
-      ]
-    }
-  ],
   "config": [
     {
       "name": "/set afk",
@@ -492,6 +347,107 @@
       ]
     },
     {
+      "name": "/azurlane guess",
+      "description": "Guess the shipgirl",
+      "args": null
+    },
+    {
+      "name": "/azurlane ship",
+      "description": "Gets info about a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skills",
+      "description": "Gets the list of skill(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane skins",
+      "description": "Gets the list of skin(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane gallery",
+      "description": "Gets the list of image(s) of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane equip",
+      "description": "Gets info about an equip",
+      "args": [
+        {
+          "name": "equip",
+          "type": 3,
+          "description": "Name of the equip",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane barrage",
+      "description": "Gets the barrage pattern of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane chapter",
+      "description": "Gets info about a story chapter",
+      "args": [
+        {
+          "name": "name",
+          "type": 3,
+          "description": "Code of this chapter, ex: 6-4",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/azurlane voice",
+      "description": "Gets the voicelines of a ship",
+      "args": [
+        {
+          "name": "ship",
+          "type": 3,
+          "description": "Name of the ship",
+          "required": true
+        }
+      ]
+    },
+    {
       "name": "/guild info",
       "description": "Gets the info about guild where this is invoked",
       "args": null
@@ -538,6 +494,54 @@
       "name": "/info privacy",
       "description": "About our privacy policy",
       "args": null
+    },
+    {
+      "name": "/osu stats",
+      "description": "Gets a bit of info about the account of the user you specified",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu replay",
+      "description": "Renders a replay in osu (.osr) replays",
+      "args": [
+        {
+          "name": "file",
+          "type": 11,
+          "description": "The replay file itself",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu recent",
+      "description": "Gets a bit of info about this user's recent play",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/osu top",
+      "description": "Gets this user top plays",
+      "args": [
+        {
+          "name": "user",
+          "type": 3,
+          "description": "Gets a bit of info about the account of the user you specified",
+          "required": true
+        }
+      ]
     },
     {
       "name": "/ping",
@@ -603,6 +607,18 @@
       ]
     },
     {
+      "name": "/urban",
+      "description": "Searches urban dictionary for a word",
+      "args": [
+        {
+          "name": "query",
+          "type": 3,
+          "description": "The word to search",
+          "required": true
+        }
+      ]
+    },
+    {
       "name": "/user view",
       "description": "Gets the info about the user you specified",
       "args": [
@@ -638,13 +654,14 @@
   ],
   "image": [
     {
-      "name": "/bonk",
-      "description": "Bonks a user",
+      "name": "/generate bonk",
+      "description": "Generates a bonk image",
       "args": [
         {
           "name": "user",
           "type": 6,
-          "description": "The user you want to bonk"
+          "description": "The user avatar who will be in this image",
+          "required": true
         }
       ]
     },
@@ -745,8 +762,32 @@
       ]
     },
     {
+      "name": "/generate reverse",
+      "description": "Generates an uno reverse card",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
       "name": "/generate respect",
       "description": "Generates a press F to pay respects image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate ship",
+      "description": "Generates an image and ships how compatible you are with a user",
       "args": [
         {
           "name": "user",
@@ -783,6 +824,18 @@
     {
       "name": "/generate stonks",
       "description": "Generates a stonks image",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user avatar who will be in this image",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "/generate sus",
+      "description": "Generates a sus image",
       "args": [
         {
           "name": "user",
@@ -841,34 +894,168 @@
       ]
     },
     {
-      "name": "/lewd neko",
+      "name": "/image awoo",
+      "description": "Grabs a random awoo image",
+      "args": null
+    },
+    {
+      "name": "/image baka",
+      "description": "Grabs a random baka image",
+      "args": null
+    },
+    {
+      "name": "/image deredere",
+      "description": "Grabs a random deredere image",
+      "args": null
+    },
+    {
+      "name": "/image jojo",
+      "description": "Grabs a random jojo image",
+      "args": null
+    },
+    {
+      "name": "/image lewd",
+      "description": "Grabs a random not so lewd image",
+      "args": null
+    },
+    {
+      "name": "/image megumin",
+      "description": "Grabs a random megumin image",
+      "args": null
+    },
+    {
+      "name": "/image nani",
+      "description": "Grabs a random nani image",
+      "args": null
+    },
+    {
+      "name": "/image neko",
       "description": "Grabs a random neko image",
       "args": null
     },
     {
-      "name": "/lewd oppai",
-      "description": "Grabs a random oppai image",
+      "name": "/image poi",
+      "description": "Grabs a random poi image",
       "args": null
     },
     {
-      "name": "/lewd thigh",
-      "description": "Grabs a random thigh image",
+      "name": "/image trap",
+      "description": "Grabs a random trap image",
       "args": null
     },
     {
-      "name": "/lewd kitsune",
-      "description": "Grabs a random kitsune image",
+      "name": "/image dorifto",
+      "description": "Grabs a random dorifto image",
       "args": null
     },
     {
-      "name": "/neko",
-      "description": "Gets a random catgirl / neko image",
+      "name": "/image cat",
+      "description": "Grabs a random cat image",
       "args": null
     },
     {
-      "name": "/nou",
-      "description": "Generates an uno reverse card from your avatar",
+      "name": "/image dog",
+      "description": "Grabs a random dog image",
       "args": null
+    },
+    {
+      "name": "/interact cuddle",
+      "description": "Cuddles with a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to cuddle with"
+        }
+      ]
+    },
+    {
+      "name": "/interact greet",
+      "description": "Greets a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to greet"
+        }
+      ]
+    },
+    {
+      "name": "/interact hug",
+      "description": "Hugs a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to hug"
+        }
+      ]
+    },
+    {
+      "name": "/interact kiss",
+      "description": "Kisses a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to kiss"
+        }
+      ]
+    },
+    {
+      "name": "/interact pat",
+      "description": "Pats a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to pat"
+        }
+      ]
+    },
+    {
+      "name": "/interact poke",
+      "description": "Pokes a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to poke"
+        }
+      ]
+    },
+    {
+      "name": "/interact stare",
+      "description": "Stares at a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to stare on"
+        }
+      ]
+    },
+    {
+      "name": "/interact tickle",
+      "description": "Tickles a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to tickle"
+        }
+      ]
+    },
+    {
+      "name": "/interact wag",
+      "description": "Wags for a user",
+      "args": [
+        {
+          "name": "user",
+          "type": 6,
+          "description": "The user you want to wag on"
+        }
+      ]
     },
     {
       "name": "/postfx blur",
@@ -1044,258 +1231,6 @@
           "description": "The range (1-256) for the threshold effect",
           "min_value": 1,
           "max_value": 256
-        }
-      ]
-    },
-    {
-      "name": "/random awoo",
-      "description": "Grabs a random awoo image",
-      "args": null
-    },
-    {
-      "name": "/random baka",
-      "description": "Grabs a random baka image",
-      "args": null
-    },
-    {
-      "name": "/random deredere",
-      "description": "Grabs a random deredere image",
-      "args": null
-    },
-    {
-      "name": "/random jojo",
-      "description": "Grabs a random jojo image",
-      "args": null
-    },
-    {
-      "name": "/random megumin",
-      "description": "Grabs a random megumin image",
-      "args": null
-    },
-    {
-      "name": "/random nani",
-      "description": "Grabs a random nani image",
-      "args": null
-    },
-    {
-      "name": "/random poi",
-      "description": "Grabs a random poi image",
-      "args": null
-    },
-    {
-      "name": "/random trap",
-      "description": "Grabs a random trap image",
-      "args": null
-    },
-    {
-      "name": "/random dorifto",
-      "description": "Grabs a random dorifto image",
-      "args": null
-    },
-    {
-      "name": "/random cat",
-      "description": "Grabs a random cat image",
-      "args": null
-    },
-    {
-      "name": "/random dog",
-      "description": "Grabs a random dog image",
-      "args": null
-    },
-    {
-      "name": "/ship",
-      "description": "Ships and generates how compatibe the users are",
-      "args": [
-        {
-          "name": "shipped",
-          "type": 6,
-          "description": "The user you want to be ship",
-          "required": true
-        },
-        {
-          "name": "shipper",
-          "type": 6,
-          "description": "If you want to ship another user that isn't you"
-        }
-      ]
-    },
-    {
-      "name": "/sus",
-      "description": "Ejects a sus user",
-      "args": [
-        {
-          "name": "user",
-          "type": 6,
-          "description": "The user you want to eject",
-          "required": true
-        }
-      ]
-    }
-  ],
-  "miscellaneous": [
-    {
-      "name": "/azurlane ship",
-      "description": "Gets info about a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane skills",
-      "description": "Gets the list of skill(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane skins",
-      "description": "Gets the list of skin(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane gallery",
-      "description": "Gets the list of image(s) of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane equip",
-      "description": "Gets info about an equip",
-      "args": [
-        {
-          "name": "equip",
-          "type": 3,
-          "description": "Name of the equip",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane barrage",
-      "description": "Gets the barrage pattern of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane chapter",
-      "description": "Gets info about a story chapter",
-      "args": [
-        {
-          "name": "name",
-          "type": 3,
-          "description": "Code of this chapter, ex: 6-4",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/azurlane voice",
-      "description": "Gets the voicelines of a ship",
-      "args": [
-        {
-          "name": "ship",
-          "type": 3,
-          "description": "Name of the ship",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/guess default",
-      "description": "Picks a random shipgirl from azurlane to guess from default skins only",
-      "args": null
-    },
-    {
-      "name": "/guess skins",
-      "description": "Picks a random shipgirl form azurlane to guess with it's custom skins",
-      "args": null
-    },
-    {
-      "name": "/osu stats",
-      "description": "Gets a bit of info about the account of the user you specified",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu replay",
-      "description": "Renders a replay in osu (.osr) replays",
-      "args": [
-        {
-          "name": "file",
-          "type": 11,
-          "description": "The replay file itself",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu recent",
-      "description": "Gets a bit of info about this user's recent play",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/osu top",
-      "description": "Gets this user top plays",
-      "args": [
-        {
-          "name": "user",
-          "type": 3,
-          "description": "Gets a bit of info about the account of the user you specified",
-          "required": true
-        }
-      ]
-    },
-    {
-      "name": "/urban",
-      "description": "Searches urban dictionary for a word",
-      "args": [
-        {
-          "name": "query",
-          "type": 3,
-          "description": "The word to search",
-          "required": true
         }
       ]
     }
